@@ -32,10 +32,11 @@ def fill_spiral_clockwise(n):
 
 def print_matrix(matrix):
     for row in matrix:
-        print(" ".join(f"{x:2}" for x in row))
+        print(" ".join(f"{x:3}" for x in row))
 
 if __name__ == "__main__":
     n = 7
+
     matrix = fill_spiral_clockwise(n)
     print_matrix(matrix)
 
